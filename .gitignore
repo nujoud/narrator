@@ -6,4 +6,5 @@
 /html/sites/default/files
 /html/libraries
 vendor/
+/html/sites/default/settings.php
 .idea
