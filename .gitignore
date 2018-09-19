@@ -5,5 +5,7 @@
 /html/themes/contrib
 /html/sites/default/files
 /html/libraries
+/html/error_log
+html/sites/default/settings.php
 vendor/
 .idea
