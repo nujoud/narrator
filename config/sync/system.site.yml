@@ -1,0 +1,15 @@
+uuid: 5f754416-6036-4224-aacb-e2abe40765db
+name: narrator
+mail: admin@narrator.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /stream
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: ar
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

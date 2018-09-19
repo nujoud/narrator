@@ -1,0 +1,22 @@
+uuid: 99203b3d-5867-4126-b9d1-6ab913e4da62
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_creator
+    - group
+_core:
+  default_config_hash: s2hGkXtaE-KjS0f28HOxLbVwBVyX2rHpVF3PJ0Lpwyc
+id: activity.field_activity_recipient_group
+field_name: field_activity_recipient_group
+entity_type: activity
+type: entity_reference
+settings:
+  target_type: group
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

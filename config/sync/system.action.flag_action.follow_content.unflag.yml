@@ -1,0 +1,13 @@
+uuid: fac5fd71-e542-4bcd-9a21-3a8658f51609
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.follow_content.unflag
+label: 'Unfollow content'
+type: node
+plugin: 'flag_action:follow_content.unflag'
+configuration:
+  flag_id: follow_content
+  flag_action: unflag
