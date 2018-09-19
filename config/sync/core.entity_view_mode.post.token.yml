@@ -1,0 +1,10 @@
+uuid: afb493e2-75bf-4677-a521-db4ccf267d7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_post
+id: post.token
+label: Token
+targetEntityType: post
+cache: true

@@ -1,0 +1,30 @@
+uuid: 0eeb31e0-97a4-4ec7-b0c3-3ac1a122fe28
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.upcoming_events
+  module:
+    - system
+    - views
+  theme:
+    - socialblue
+id: socialblue_views_block__upcoming_events_upcoming_events_group
+theme: socialblue
+region: complementary_bottom
+weight: 2
+provider: null
+plugin: 'views_block:upcoming_events-upcoming_events_group'
+settings:
+  id: 'views_block:upcoming_events-upcoming_events_group'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/group/*/stream\r\n/group/*/about"
+    negate: false
+    context_mapping: {  }

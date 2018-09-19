@@ -8,4 +8,5 @@
 /html/error_log
 html/sites/default/settings.php
 vendor/
+/html/sites/default/settings.php
 .idea
