@@ -9,8 +9,10 @@ label: Profile
 registration: false
 multiple: false
 roles:
-  authenticated: '0'
-  administrator: '0'
+  authenticated: authenticated
+  administrator: administrator
+  contentmanager: contentmanager
+  sitemanager: sitemanager
 weight: 0
-use_revisions: false
+use_revisions: true
 description: 'The default Open Social profile type'
