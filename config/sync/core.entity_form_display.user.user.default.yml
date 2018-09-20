@@ -48,6 +48,9 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
 hidden:
   contact: true
   groups: true
