@@ -15,6 +15,7 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_translation: 0
   config_update: 0
   crop: 0
   datetime: 0
@@ -39,6 +40,7 @@ module:
   language: 0
   like_and_dislike: 0
   link: 0
+  locale: 0
   mailsystem: 0
   mentions: 0
   menu_ui: 0
@@ -59,6 +61,7 @@ module:
   social_file_private: 0
   social_follow_content: 0
   social_font: 0
+  social_language: 0
   social_like: 0
   social_mentions: 0
   social_page: 0
@@ -77,11 +80,13 @@ module:
   text: 0
   token: 0
   toolbar: 0
+  update: 0
   user: 0
   views_infinite_scroll: 0
   votingapi: 0
   menu_link_content: 1
   social_group: 2
+  content_translation: 10
   views: 10
   improved_theme_settings: 50
   social: 1000
