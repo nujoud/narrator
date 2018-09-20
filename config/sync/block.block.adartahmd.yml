@@ -10,7 +10,7 @@ dependencies:
     - socialblue
 id: adartahmd
 theme: socialblue
-region: header
+region: hidden
 weight: 0
 provider: null
 plugin: 'block_content:04a5fedb-c2c8-4e39-af6d-2c30d58b8242'
