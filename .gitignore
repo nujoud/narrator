@@ -9,4 +9,7 @@
 html/sites/default/settings.php
 vendor/
 /html/sites/default/settings.php
+/private/
+/config/sync/.htaccess
+/tmp/
 .idea
