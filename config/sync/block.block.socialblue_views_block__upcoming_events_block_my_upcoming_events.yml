@@ -13,7 +13,7 @@ dependencies:
 id: socialblue_views_block__upcoming_events_block_my_upcoming_events
 theme: socialblue
 region: complementary_bottom
-weight: 1
+weight: -13
 provider: null
 plugin: 'views_block:upcoming_events-block_my_upcoming_events'
 settings:

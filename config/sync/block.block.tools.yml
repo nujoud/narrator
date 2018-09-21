@@ -1,22 +1,22 @@
-uuid: 9d8a0a98-6e88-4c09-8dfd-f5ffd4029689
+uuid: ca142166-00ba-47cd-8146-12b8c50449d5
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.main
+    - system.menu.tools
   module:
     - system
   theme:
     - socialblue
-id: socialblue_mainnavigation
+id: tools
 theme: socialblue
 region: header
-weight: -12
+weight: -13
 provider: null
-plugin: 'system_menu_block:main'
+plugin: 'system_menu_block:tools'
 settings:
-  id: 'system_menu_block:main'
-  label: 'Main navigation'
+  id: 'system_menu_block:tools'
+  label: Tools
   provider: system
   label_display: '0'
   level: 1

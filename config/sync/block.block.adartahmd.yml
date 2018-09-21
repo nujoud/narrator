@@ -11,7 +11,7 @@ dependencies:
 id: adartahmd
 theme: socialblue
 region: hidden
-weight: 0
+weight: -14
 provider: null
 plugin: 'block_content:04a5fedb-c2c8-4e39-af6d-2c30d58b8242'
 settings:

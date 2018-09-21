@@ -1,0 +1,11 @@
+uuid: f0693819-8440-4aa3-9883-34802bc37c5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.qss
+id: node.qss
+target_entity_type_id: node
+target_bundle: qss
+default_langcode: site_default
+language_alterable: false

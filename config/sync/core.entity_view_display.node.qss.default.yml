@@ -1,0 +1,54 @@
+uuid: e4e4589b-e08c-40f0-bec9-81f78ef845b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.qss.body
+    - field.field.node.qss.field_content_visibility
+    - field.field.node.qss.field_topic_image
+    - node.type.qss
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.qss.default
+targetEntityType: node
+bundle: qss
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_content_visibility:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_topic_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  flag_follow_content:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

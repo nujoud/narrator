@@ -1,0 +1,32 @@
+uuid: c16eb759-9d57-45e5-b7f9-794bfcb5ef3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.qss.body
+    - node.type.qss
+  module:
+    - text
+    - user
+id: node.qss.teaser
+targetEntityType: node
+bundle: qss
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  flag_follow_content:
+    weight: 10
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

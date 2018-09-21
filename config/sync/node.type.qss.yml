@@ -1,0 +1,18 @@
+uuid: 083e58a2-0631-4e17-b84c-5c850c175a21
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: story
+type: qss
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

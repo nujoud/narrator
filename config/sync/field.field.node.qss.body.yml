@@ -1,0 +1,22 @@
+uuid: e1e8ed38-70bf-4d7a-9157-6f065f60d1cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.qss
+  module:
+    - text
+id: node.qss.body
+field_name: body
+entity_type: node
+bundle: qss
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
