@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - editor
+    - mentions
 _core:
   default_config_hash: GMgjpe7a6vaF-1j0bQ8C9O8sVqNEfHahisZg0NmM22M
 name: 'Full HTML'
@@ -50,3 +51,12 @@ filters:
       allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <hr> <p> <h1> <pre> <mention id>'
       filter_html_help: true
       filter_html_nofollow: false
+  filter_mentions:
+    id: filter_mentions
+    provider: mentions
+    status: false
+    weight: -10
+    settings:
+      mentions_filter:
+        ProfileMention: '0'
+        UserMention: '0'

@@ -1,0 +1,20 @@
+uuid: 02774679-06a8-4693-ac80-b32dae000c73
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_topic
+  theme:
+    - socialblue
+id: topicaddblock
+theme: socialblue
+region: hero
+weight: -14
+provider: null
+plugin: topic_add_block
+settings:
+  id: topic_add_block
+  label: 'Topic add block'
+  provider: social_topic
+  label_display: visible
+visibility: {  }

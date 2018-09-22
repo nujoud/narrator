@@ -34,6 +34,7 @@ third_party_settings:
         required_fields: true
         id: content
         classes: 'card '
+      region: hidden
     group_topic_description:
       children:
         - body
@@ -46,9 +47,9 @@ third_party_settings:
         required_fields: true
         id: description
         classes: 'card '
+      region: hidden
     group_topic_visibility:
       children:
-        - groups
         - field_content_visibility
       parent_name: ''
       weight: 1
@@ -59,6 +60,7 @@ third_party_settings:
         required_fields: true
         id: visibility
         classes: 'card '
+      region: hidden
     group_attachments:
       children:
         - field_files
@@ -71,6 +73,7 @@ third_party_settings:
         required_fields: true
         id: attachments
         classes: 'card '
+      region: hidden
 _core:
   default_config_hash: 7gp9MbxXU7HOGmCzXk8LMVCxpLv_WPYpnFy49fW_2os
 id: node.topic.default
@@ -131,7 +134,7 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
-    type: options_buttons
+    type: options_select
     region: content
   groups:
     type: social_group_selector_widget

@@ -11,7 +11,7 @@ dependencies:
 id: socialblue_mainnavigation
 theme: socialblue
 region: header
-weight: -12
+weight: -11
 provider: null
 plugin: 'system_menu_block:main'
 settings:

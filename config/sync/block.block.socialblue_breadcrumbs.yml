@@ -10,7 +10,7 @@ dependencies:
 id: socialblue_breadcrumbs
 theme: socialblue
 region: breadcrumb
-weight: -14
+weight: -15
 provider: null
 plugin: system_breadcrumb_block
 settings:

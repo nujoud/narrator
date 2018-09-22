@@ -563,6 +563,7 @@ display:
         description: ''
         weight: 0
       exposed_block: true
+      rendering_language: '***LANGUAGE_entity_translation***'
     cache_metadata:
       max-age: -1
       contexts:

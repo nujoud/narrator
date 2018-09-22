@@ -10,7 +10,7 @@ dependencies:
 id: socialblue_local_tasks
 theme: socialblue
 region: secondary_navigation
-weight: -6
+weight: -15
 provider: null
 plugin: local_tasks_block
 settings:

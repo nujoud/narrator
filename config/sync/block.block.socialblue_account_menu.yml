@@ -12,7 +12,7 @@ dependencies:
 id: socialblue_account_menu
 theme: socialblue
 region: header
-weight: -15
+weight: -14
 provider: null
 plugin: 'system_menu_block:account'
 settings:
