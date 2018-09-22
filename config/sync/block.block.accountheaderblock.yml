@@ -4,12 +4,13 @@ status: true
 dependencies:
   module:
     - social_user
+    - user
   theme:
     - socialblue
 id: accountheaderblock
 theme: socialblue
 region: header
-weight: -15
+weight: -11
 provider: null
 plugin: account_header_block
 settings:
@@ -19,4 +20,14 @@ settings:
   label_display: '0'
   context_mapping:
     user: '@user.current_user_context:current_user'
-visibility: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      contentmanager: contentmanager
+      sitemanager: sitemanager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

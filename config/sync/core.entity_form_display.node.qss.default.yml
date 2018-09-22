@@ -39,6 +39,28 @@ third_party_settings:
     group_visibility:
       children:
         - field_content_visibility
+      parent_name: group_visibility2
+      weight: 21
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+        element: div
+        show_label: false
+        label_element: h3
+        effect: none
+        speed: fast
+        attributes: ''
+        formatter: closed
+        direction: vertical
+        open: false
+      label: Visibility
+      region: content
+    group_tell_the_story:
+      children:
+        - body
       parent_name: ''
       weight: 3
       format_type: fieldset
@@ -47,20 +69,38 @@ third_party_settings:
         classes: ''
         description: ''
         required_fields: true
-      label: Visibility
+      label: 'Tell the story'
       region: content
-    group_tell_the_story:
+    group_visibility1:
       children:
-        - body
+        - group_visibility2
       parent_name: ''
       weight: 1
-      format_type: fieldset
+      format_type: tabs
       format_settings:
         id: ''
         classes: ''
+        formatter: open
         description: ''
         required_fields: true
-      label: 'Tell the story'
+        effect: none
+        open: false
+        direction: vertical
+      label: Visibility1
+      region: content
+    group_visibility2:
+      children:
+        - group_visibility
+      parent_name: group_visibility1
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Visibility2
       region: content
 id: node.qss.default
 targetEntityType: node
@@ -83,7 +123,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_content_visibility:
-    weight: 3
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
