@@ -1,0 +1,29 @@
+uuid: fc4821de-4230-4d27-be57-a7e3a1956e0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nw_alqst
+    - node.type.qss
+    - taxonomy.vocabulary.anwa_alqst
+id: node.qss.field_nw_alqst
+field_name: field_nw_alqst
+entity_type: node
+bundle: qss
+label: 'نوع القصة'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      anwa_alqst: anwa_alqst
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

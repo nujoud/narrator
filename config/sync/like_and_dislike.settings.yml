@@ -4,8 +4,9 @@ enabled_types:
     - comment
     - post_comment
   node:
-    - topic
     - event
+    - qss
+    - topic
   post:
     - post
 hide_vote_widget: true

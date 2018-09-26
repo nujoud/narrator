@@ -1,0 +1,9 @@
+uuid: 309164eb-4094-48be-bc37-7ea3981a533e
+langcode: ar
+status: true
+dependencies: {  }
+name: 'أنواع القصة'
+vid: anwa_alqst
+description: 'قد قسَّم الأدباء القصة من حيث، الطول والقصر إلى أقسام'
+hierarchy: 0
+weight: 0

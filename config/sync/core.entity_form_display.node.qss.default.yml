@@ -5,12 +5,13 @@ dependencies:
   config:
     - field.field.node.qss.body
     - field.field.node.qss.field_content_visibility
+    - field.field.node.qss.field_nw_alqst
     - field.field.node.qss.field_topic_image
     - image.style.thumbnail
     - node.type.qss
   module:
     - field_group
-    - image
+    - image_widget_crop
     - path
     - text
 third_party_settings:
@@ -62,7 +63,7 @@ third_party_settings:
       children:
         - body
       parent_name: ''
-      weight: 3
+      weight: 2
       format_type: fieldset
       format_settings:
         id: ''
@@ -102,6 +103,19 @@ third_party_settings:
         required_fields: true
       label: Visibility2
       region: content
+    group_story_type:
+      children:
+        - field_nw_alqst
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'story type'
+      region: content
 id: node.qss.default
 targetEntityType: node
 bundle: qss
@@ -128,13 +142,25 @@ content:
     third_party_settings: {  }
     type: options_buttons
     region: content
+  field_nw_alqst:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_topic_image:
     weight: 9
     settings:
-      progress_indicator: throbber
+      show_default_crop: true
+      warn_multiple_usages: true
       preview_image_style: thumbnail
+      crop_preview_image_style: crop_thumbnail
+      crop_list:
+        - hero_an
+      progress_indicator: throbber
+      show_crop_area: false
     third_party_settings: {  }
-    type: image_image
+    type: image_widget_crop
     region: content
   langcode:
     type: language_select

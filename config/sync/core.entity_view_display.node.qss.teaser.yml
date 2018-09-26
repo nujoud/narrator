@@ -5,8 +5,12 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.qss.body
+    - field.field.node.qss.field_content_visibility
+    - field.field.node.qss.field_topic_image
+    - image.style.social_x_large
     - node.type.qss
   module:
+    - image
     - text
     - user
 id: node.qss.teaser
@@ -17,16 +21,31 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 3
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  field_topic_image:
+    type: image
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      image_style: social_x_large
+      image_link: content
+    third_party_settings: {  }
   flag_follow_content:
-    weight: 10
+    weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 1
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_content_visibility: true
   langcode: true
+  like_and_dislike: true

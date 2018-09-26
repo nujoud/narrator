@@ -1,0 +1,11 @@
+uuid: d32e51e7-fc28-4516-ba66-7ec77514f013
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.anwa_alqst
+id: taxonomy_term.anwa_alqst
+target_entity_type_id: taxonomy_term
+target_bundle: anwa_alqst
+default_langcode: ar
+language_alterable: false

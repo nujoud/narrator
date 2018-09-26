@@ -9,9 +9,9 @@ palette:
   navbar-active-text: '#cbb6df'
   navbar-sec-bg: '#300059'
   navbar-sec-text: '#f9f9f9'
-logo: 'public://color/socialblue-3d34308d/logo.svg'
+logo: 'public://color/socialblue-05161355/logo.svg'
 stylesheets:
-  - 'public://color/socialblue-3d34308d/brand.css'
+  - 'public://color/socialblue-05161355/brand.css'
 files:
-  - 'public://color/socialblue-3d34308d/logo.svg'
-  - 'public://color/socialblue-3d34308d/brand.css'
+  - 'public://color/socialblue-05161355/logo.svg'
+  - 'public://color/socialblue-05161355/brand.css'
