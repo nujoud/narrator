@@ -4,7 +4,9 @@ status: true
 dependencies:
   config:
     - block_content.type.hero_call_to_action_block
+  content:
+    - 'block_content:hero_call_to_action_block:9a5bea79-cc88-46c4-86d9-7876803d41ff'
 id: add_a_new_story
 title: 'Add a New Story'
 block_content_bundle: hero_call_to_action_block
-default_content: null
+default_content: '{"_links":{"self":{"href":"http:\/\/localhost\/narrator\/html\/en\/block\/4?_format=hal_json"},"type":{"href":"http:\/\/fixed_block_content.drupal.org\/rest\/type\/block_content\/hero_call_to_action_block"},"http:\/\/fixed_block_content.drupal.org\/rest\/relation\/block_content\/hero_call_to_action_block\/field_hero_image":[{"href":"http:\/\/localhost\/narrator\/html\/system\/files\/2018-09\/rose-blue-flower-rose-blooms-67636.jpeg"}]},"langcode":[{"value":"en","lang":"en"}],"type":[{"target_id":"hero_call_to_action_block"}],"status":[{"value":true,"lang":"en"}],"info":[{"value":"Add New Story","lang":"en"}],"default_langcode":[{"value":true,"lang":"en"}],"revision_translation_affected":[{"value":true,"lang":"en"}],"field_call_to_action_link":[{"uri":"internal:\/node\/add\/qss","title":"\u0623\u0636\u0641 \u0642\u0635\u0629 \u062c\u062f\u064a\u062f\u0629","options":[]}],"_embedded":{"http:\/\/fixed_block_content.drupal.org\/rest\/relation\/block_content\/hero_call_to_action_block\/field_hero_image":[{"_links":{"self":{"href":"http:\/\/localhost\/narrator\/html\/system\/files\/2018-09\/rose-blue-flower-rose-blooms-67636.jpeg"},"type":{"href":"http:\/\/fixed_block_content.drupal.org\/rest\/type\/file\/file"}},"uuid":[{"value":"5afaa8a7-39cc-42bd-a5dc-bd79fbb6583b"}]}]},"field_text_block":[{"value":"\u003Cp\u003Estory\u003C\/p\u003E\r\n","format":"basic_html","processed":"\u003Cp\u003Estory\u003C\/p\u003E\n"}]}'
