@@ -17,6 +17,7 @@ module:
   config: 0
   config_translation: 0
   config_update: 0
+  contextual: 0
   crop: 0
   datetime: 0
   dropdown: 0
@@ -53,6 +54,7 @@ module:
   override_node_options: 0
   path: 0
   profile: 0
+  quickedit: 0
   r4032login: 0
   search_api: 0
   search_api_db: 0
