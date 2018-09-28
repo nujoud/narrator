@@ -7,12 +7,9 @@ dependencies:
     - field.field.node.qss.body
     - field.field.node.qss.field_content_visibility
     - field.field.node.qss.field_nw_alqst
-    - field.field.node.qss.field_page_image
     - field.field.node.qss.field_topic_comments
-    - image.style.social_x_large
     - node.type.qss
   module:
-    - image
     - text
     - user
 id: node.qss.teaser
@@ -28,15 +25,6 @@ content:
       trim_length: 600
     third_party_settings: {  }
     region: content
-  field_page_image:
-    type: image
-    weight: 2
-    region: content
-    label: above
-    settings:
-      image_style: social_x_large
-      image_link: content
-    third_party_settings: {  }
   flag_follow_content:
     weight: 0
     region: content

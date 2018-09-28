@@ -1,9 +1,9 @@
-uuid: 82fe69cb-9e3e-47d4-9343-6848db8ccdc8
+uuid: ff9c04e0-38e4-4e63-a999-58c6f5b6f97b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_page_image
+    - field.storage.node.field_topic_image
     - node.type.qss
   module:
     - content_translation
@@ -14,8 +14,8 @@ third_party_settings:
       alt: alt
       title: title
       file: '0'
-id: node.qss.field_page_image
-field_name: field_page_image
+id: node.qss.field_topic_image
+field_name: field_topic_image
 entity_type: node
 bundle: qss
 label: Image
@@ -28,16 +28,16 @@ settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
-  max_resolution: 4069x4096
+  max_resolution: ''
   min_resolution: ''
   alt_field: true
-  alt_field_required: false
+  alt_field_required: true
   title_field: false
   title_field_required: false
   default_image:
     uuid: ''
-    alt: صورة
-    title: صورة
+    alt: ''
+    title: ''
     width: null
     height: null
   handler: 'default:file'

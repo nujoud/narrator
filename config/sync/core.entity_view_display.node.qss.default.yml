@@ -7,8 +7,8 @@ dependencies:
     - field.field.node.qss.body
     - field.field.node.qss.field_content_visibility
     - field.field.node.qss.field_nw_alqst
-    - field.field.node.qss.field_page_image
     - field.field.node.qss.field_topic_comments
+    - field.field.node.qss.field_topic_image
     - node.type.qss
   module:
     - group_core_comments
@@ -43,15 +43,6 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_page_image:
-    weight: 2
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
   field_topic_comments:
     weight: 6
     label: above
@@ -60,6 +51,15 @@ content:
       pager_id: 0
     third_party_settings: {  }
     type: comment_group_content
+    region: content
+  field_topic_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
     region: content
   flag_follow_content:
     weight: 0
