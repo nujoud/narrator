@@ -1,0 +1,19 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Reset
+      arguments:
+        nid:
+          exception:
+            title: All
+  event_enrollments:
+    display_title: Block
+    display_options:
+      arguments:
+        nid:
+          exception:
+            title: All
+  view_enrollments:
+    display_title: Page

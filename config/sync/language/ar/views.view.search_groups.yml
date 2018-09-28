@@ -1,0 +1,12 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Reset
+      arguments:
+        search_api_fulltext:
+          exception:
+            title: All
+  page:
+    display_title: Page

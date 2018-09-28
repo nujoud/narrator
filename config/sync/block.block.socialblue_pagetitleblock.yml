@@ -11,7 +11,7 @@ dependencies:
 id: socialblue_pagetitleblock
 theme: socialblue
 region: hero
-weight: -11
+weight: -13
 provider: null
 plugin: social_page_title_block
 settings:

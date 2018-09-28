@@ -6,12 +6,11 @@ dependencies:
     - field.field.node.qss.body
     - field.field.node.qss.field_content_visibility
     - field.field.node.qss.field_nw_alqst
+    - field.field.node.qss.field_page_image
     - field.field.node.qss.field_topic_comments
-    - field.field.node.qss.field_topic_image
-    - image.style.thumbnail
+    - image.style.social_x_large
     - node.type.qss
   module:
-    - comment
     - field_group
     - image_widget_crop
     - path
@@ -28,7 +27,6 @@ third_party_settings:
         - sticky
         - path
         - status
-        - field_topic_image
       parent_name: ''
       weight: 0
       format_type: fieldset
@@ -109,7 +107,7 @@ third_party_settings:
       children:
         - field_nw_alqst
       parent_name: ''
-      weight: 3
+      weight: 4
       format_type: fieldset
       format_settings:
         id: ''
@@ -117,6 +115,19 @@ third_party_settings:
         description: ''
         required_fields: true
       label: 'story type'
+      region: content
+    group_images:
+      children:
+        - field_page_image
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: image
       region: content
 id: node.qss.default
 targetEntityType: node
@@ -150,21 +161,15 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
-  field_topic_comments:
-    weight: 26
-    settings: {  }
-    third_party_settings: {  }
-    type: comment_default
-    region: content
-  field_topic_image:
-    weight: 9
+  field_page_image:
+    weight: 6
     settings:
       show_default_crop: true
       warn_multiple_usages: true
-      preview_image_style: thumbnail
+      preview_image_style: social_x_large
       crop_preview_image_style: crop_thumbnail
       crop_list:
-        - hero_an
+        - hero
       progress_indicator: throbber
       show_crop_area: false
     third_party_settings: {  }
@@ -221,4 +226,5 @@ content:
       placeholder: ''
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_topic_comments: true

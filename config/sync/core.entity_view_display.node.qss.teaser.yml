@@ -7,7 +7,8 @@ dependencies:
     - field.field.node.qss.body
     - field.field.node.qss.field_content_visibility
     - field.field.node.qss.field_nw_alqst
-    - field.field.node.qss.field_topic_image
+    - field.field.node.qss.field_page_image
+    - field.field.node.qss.field_topic_comments
     - image.style.social_x_large
     - node.type.qss
   module:
@@ -27,11 +28,11 @@ content:
       trim_length: 600
     third_party_settings: {  }
     region: content
-  field_topic_image:
+  field_page_image:
     type: image
     weight: 2
     region: content
-    label: hidden
+    label: above
     settings:
       image_style: social_x_large
       image_link: content
@@ -49,5 +50,6 @@ content:
 hidden:
   field_content_visibility: true
   field_nw_alqst: true
+  field_topic_comments: true
   langcode: true
   like_and_dislike: true

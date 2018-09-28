@@ -1,0 +1,21 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+      filters:
+        type:
+          expose:
+            label: 'Content type'
+      arguments:
+        search_api_fulltext:
+          exception:
+            title: All
+  page:
+    display_title: Page
+  page_no_value:
+    display_options:
+      menu:
+        title: Content

@@ -9,12 +9,10 @@ dependencies:
     - field.field.node.qss.field_content_visibility
     - field.field.node.qss.field_nw_alqst
     - field.field.node.qss.field_topic_comments
-    - field.field.node.qss.field_topic_image
     - node.type.qss
   module:
     - comment
     - field_group
-    - image
     - options
     - text
     - user
@@ -66,15 +64,6 @@ content:
     settings:
       view_mode: default
       pager_id: 0
-    third_party_settings: {  }
-  field_topic_image:
-    type: image
-    weight: 3
-    region: content
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
     third_party_settings: {  }
   flag_follow_content:
     weight: 0

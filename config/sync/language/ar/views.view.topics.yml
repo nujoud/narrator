@@ -1,0 +1,26 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+      title: Topics
+      arguments:
+        uid:
+          exception:
+            title: All
+  block_user_topics:
+    display_title: Block
+    display_options:
+      arguments:
+        uid:
+          exception:
+            title: All
+  page_profile:
+    display_title: Page
+    display_options:
+      menu:
+        title: Topics
+      tab_options:
+        title: Topics
