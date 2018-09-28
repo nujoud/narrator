@@ -30,10 +30,12 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  fixed_block_content: 0
   flag: 0
   gnode: 0
   group: 0
   group_core_comments: 0
+  hal: 0
   help: 0
   image: 0
   image_effects: 0
@@ -54,6 +56,7 @@ module:
   r4032login: 0
   search_api: 0
   search_api_db: 0
+  serialization: 0
   social_activity: 0
   social_api: 0
   social_auth: 0
