@@ -1,0 +1,33 @@
+uuid: cff152f4-aa24-4b2b-8492-46532b83dd89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_topic_comments
+    - node.type.qss
+  module:
+    - comment
+id: node.qss.field_topic_comments
+field_name: field_topic_comments
+entity_type: node
+bundle: qss
+label: Comments
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 0
+field_type: comment

@@ -1,9 +1,10 @@
-uuid: e4e4589b-e08c-40f0-bec9-81f78ef845b2
+uuid: cde80ffe-41ec-48a7-a2ea-cc593d36840e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.activity_comment
+    - core.entity_view_display.comment.comment.default
+    - core.entity_view_mode.node.full
     - field.field.node.qss.body
     - field.field.node.qss.field_content_visibility
     - field.field.node.qss.field_nw_alqst
@@ -12,19 +13,33 @@ dependencies:
     - node.type.qss
   module:
     - comment
+    - field_group
     - image
     - options
     - text
     - user
-id: node.qss.default
+third_party_settings:
+  field_group:
+    group_images:
+      children: {  }
+      parent_name: ''
+      weight: 9
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+      label: images
+      region: hidden
+id: node.qss.full
 targetEntityType: node
 bundle: qss
-mode: default
+mode: full
 content:
   body:
     label: hidden
     type: text_default
-    weight: 3
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -44,25 +59,30 @@ content:
     type: entity_reference_label
     region: content
   field_topic_comments:
-    weight: 6
+    type: comment_default
+    weight: 7
+    region: content
     label: above
     settings:
-      view_mode: activity_comment
+      view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    type: comment_default
-    region: content
   field_topic_image:
     type: image
-    weight: 2
+    weight: 3
     region: content
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
   flag_follow_content:
     weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  like_and_dislike:
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -73,4 +93,3 @@ content:
     third_party_settings: {  }
 hidden:
   langcode: true
-  like_and_dislike: true

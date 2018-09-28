@@ -6,10 +6,12 @@ dependencies:
     - field.field.node.qss.body
     - field.field.node.qss.field_content_visibility
     - field.field.node.qss.field_nw_alqst
+    - field.field.node.qss.field_topic_comments
     - field.field.node.qss.field_topic_image
     - image.style.thumbnail
     - node.type.qss
   module:
+    - comment
     - field_group
     - image_widget_crop
     - path
@@ -147,6 +149,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_topic_comments:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   field_topic_image:
     weight: 9

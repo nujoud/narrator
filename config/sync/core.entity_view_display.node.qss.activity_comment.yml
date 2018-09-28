@@ -1,31 +1,46 @@
-uuid: c16eb759-9d57-45e5-b7f9-794bfcb5ef3f
+uuid: 8f737c41-2651-43fd-9da4-8003c977682c
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.activity_comment
     - field.field.node.qss.body
     - field.field.node.qss.field_content_visibility
     - field.field.node.qss.field_nw_alqst
     - field.field.node.qss.field_topic_image
-    - image.style.social_x_large
+    - image.style.large
     - node.type.qss
   module:
     - image
+    - options
     - text
     - user
-id: node.qss.teaser
+id: node.qss.activity_comment
 targetEntityType: node
 bundle: qss
-mode: teaser
+mode: activity_comment
 content:
   body:
     label: hidden
-    type: text_summary_or_trimmed
+    type: text_default
     weight: 3
-    settings:
-      trim_length: 600
+    settings: {  }
     third_party_settings: {  }
+    region: content
+  field_content_visibility:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_nw_alqst:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   field_topic_image:
     type: image
@@ -33,8 +48,8 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: social_x_large
-      image_link: content
+      image_style: large
+      image_link: ''
     third_party_settings: {  }
   flag_follow_content:
     weight: 0
@@ -47,7 +62,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_content_visibility: true
-  field_nw_alqst: true
   langcode: true
   like_and_dislike: true
