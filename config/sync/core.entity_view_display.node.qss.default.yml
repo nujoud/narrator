@@ -11,11 +11,26 @@ dependencies:
     - field.field.node.qss.field_topic_image
     - node.type.qss
   module:
+    - field_group
     - group_core_comments
     - image
     - options
     - text
     - user
+third_party_settings:
+  field_group:
+    group_visibility:
+      children:
+        - field_content_visibility
+      parent_name: ''
+      weight: 4
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+      label: Visibility
+      region: content
 id: node.qss.default
 targetEntityType: node
 bundle: qss
