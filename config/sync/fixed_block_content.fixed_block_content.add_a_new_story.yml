@@ -1,0 +1,10 @@
+uuid: a4e0916c-9502-49c2-8550-f25912f6897b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_call_to_action_block
+id: add_a_new_story
+title: 'Add a New Story'
+block_content_bundle: hero_call_to_action_block
+default_content: null
