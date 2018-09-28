@@ -1,0 +1,29 @@
+uuid: 6e5a89d2-fc0e-41e0-88b7-352e6a3d4001
+langcode: en
+status: true
+dependencies:
+  config:
+    - fixed_block_content.fixed_block_content.adart_ahmd_syf_aldyn
+  module:
+    - fixed_block_content
+    - system
+  theme:
+    - socialblue
+id: adartahmdsyfaldyn
+theme: socialblue
+region: complementary_top
+weight: 0
+provider: null
+plugin: 'fixed_block_content:adart_ahmd_syf_aldyn'
+settings:
+  id: 'fixed_block_content:adart_ahmd_syf_aldyn'
+  label: 'إدارة: أحمد سيف الدين'
+  provider: fixed_block_content
+  label_display: visible
+  view_mode: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
