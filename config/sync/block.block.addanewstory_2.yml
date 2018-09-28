@@ -1,0 +1,40 @@
+uuid: 6b2b5f89-a50f-4624-8c50-20639db38c31
+langcode: en
+status: true
+dependencies:
+  config:
+    - fixed_block_content.fixed_block_content.add_a_new_story
+  module:
+    - fixed_block_content
+    - system
+    - user
+  theme:
+    - socialblue
+id: addanewstory_2
+theme: socialblue
+region: hero
+weight: 0
+provider: null
+plugin: 'fixed_block_content:add_a_new_story'
+settings:
+  id: 'fixed_block_content:add_a_new_story'
+  label: 'Add a New Story'
+  provider: fixed_block_content
+  label_display: visible
+  view_mode: ''
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      contentmanager: contentmanager
+      sitemanager: sitemanager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/all-stories"
+    negate: false
+    context_mapping: {  }
