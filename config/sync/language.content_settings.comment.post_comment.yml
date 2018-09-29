@@ -1,0 +1,11 @@
+uuid: 5baf057b-3085-4cb5-b0ad-97bae2217814
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.post_comment
+id: comment.post_comment
+target_entity_type_id: comment
+target_bundle: post_comment
+default_langcode: current_interface
+language_alterable: false
