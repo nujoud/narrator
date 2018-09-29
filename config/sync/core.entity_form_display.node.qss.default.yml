@@ -79,6 +79,7 @@ third_party_settings:
     group_visibility:
       children:
         - field_content_visibility
+        - group_group
       parent_name: group_visibility_
       weight: 3
       format_type: accordion_item
@@ -102,6 +103,19 @@ third_party_settings:
         classes: card
         effect: bounceslide
       label: Visibility.
+      region: content
+    group_group:
+      children: {  }
+      parent_name: group_visibility
+      weight: 5
+      format_type: accordion_item
+      format_settings:
+        id: group
+        classes: card
+        formatter: closed
+        required_fields: true
+        description: ''
+      label: Group
       region: content
 id: node.qss.default
 targetEntityType: node
