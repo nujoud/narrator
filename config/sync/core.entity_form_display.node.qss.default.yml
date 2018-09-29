@@ -79,7 +79,6 @@ third_party_settings:
     group_visibility:
       children:
         - field_content_visibility
-        - group_group
       parent_name: group_visibility_
       weight: 3
       format_type: accordion_item
@@ -95,6 +94,7 @@ third_party_settings:
     group_visibility_:
       children:
         - group_visibility
+        - group_group
       parent_name: ''
       weight: 4
       format_type: accordion
@@ -106,8 +106,8 @@ third_party_settings:
       region: content
     group_group:
       children: {  }
-      parent_name: group_visibility
-      weight: 5
+      parent_name: group_visibility_
+      weight: 4
       format_type: accordion_item
       format_settings:
         id: group
