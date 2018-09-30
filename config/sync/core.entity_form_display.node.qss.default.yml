@@ -28,7 +28,7 @@ third_party_settings:
         - path
         - status
       parent_name: ''
-      weight: 1
+      weight: 0
       format_type: fieldset
       format_settings:
         id: ''
@@ -52,9 +52,9 @@ third_party_settings:
       region: content
     group_story_type:
       children:
-        - field_nw_alqst
+        - group_story_type_
       parent_name: ''
-      weight: 0
+      weight: 1
       format_type: fieldset
       format_settings:
         id: ''
@@ -80,15 +80,14 @@ third_party_settings:
       children:
         - field_content_visibility
       parent_name: group_visibility_
-      weight: 3
+      weight: 23
       format_type: accordion_item
       format_settings:
         label: Visibility
-        description: ''
+        formatter: open
         required_fields: true
         id: visibility
         classes: card
-        formatter: closed
       label: Visibility
       region: content
     group_visibility_:
@@ -107,7 +106,7 @@ third_party_settings:
     group_group:
       children: {  }
       parent_name: group_visibility_
-      weight: 4
+      weight: 24
       format_type: accordion_item
       format_settings:
         id: group
@@ -116,6 +115,33 @@ third_party_settings:
         required_fields: true
         description: ''
       label: Group
+      region: content
+    group_type_of_the_story:
+      children:
+        - field_nw_alqst
+      parent_name: group_story_type_
+      weight: 20
+      format_type: accordion_item
+      format_settings:
+        label: 'story type'
+        formatter: open
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'story type'
+      region: content
+    group_story_type_:
+      children:
+        - group_type_of_the_story
+      parent_name: group_story_type
+      weight: 3
+      format_type: accordion
+      format_settings:
+        label: 'story type.'
+        effect: bounceslide
+        id: ''
+        classes: ''
+      label: 'story type.'
       region: content
 id: node.qss.default
 targetEntityType: node
@@ -144,13 +170,13 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_nw_alqst:
-    weight: 1
+    weight: 22
     settings: {  }
     third_party_settings: {  }
-    type: options_select
+    type: options_buttons
     region: content
   field_topic_image:
-    weight: 6
+    weight: 1
     settings:
       show_default_crop: true
       warn_multiple_usages: true
