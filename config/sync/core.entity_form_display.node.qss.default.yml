@@ -41,7 +41,7 @@ third_party_settings:
       children:
         - body
       parent_name: ''
-      weight: 3
+      weight: 6
       format_type: fieldset
       format_settings:
         id: ''
@@ -52,7 +52,7 @@ third_party_settings:
       region: content
     group_story_type:
       children:
-        - group_story_type_
+        - field_nw_alqst
       parent_name: ''
       weight: 1
       format_type: fieldset
@@ -67,7 +67,7 @@ third_party_settings:
       children:
         - field_topic_image
       parent_name: ''
-      weight: 2
+      weight: 5
       format_type: fieldset
       format_settings:
         id: ''
@@ -95,7 +95,7 @@ third_party_settings:
         - group_visibility
         - group_group
       parent_name: ''
-      weight: 4
+      weight: 7
       format_type: accordion
       format_settings:
         id: visibility.
@@ -115,33 +115,6 @@ third_party_settings:
         required_fields: true
         description: ''
       label: Group
-      region: content
-    group_type_of_the_story:
-      children:
-        - field_nw_alqst
-      parent_name: group_story_type_
-      weight: 20
-      format_type: accordion_item
-      format_settings:
-        label: 'story type'
-        formatter: open
-        required_fields: true
-        id: ''
-        classes: ''
-      label: 'story type'
-      region: content
-    group_story_type_:
-      children:
-        - group_type_of_the_story
-      parent_name: group_story_type
-      weight: 3
-      format_type: accordion
-      format_settings:
-        label: 'story type.'
-        effect: bounceslide
-        id: ''
-        classes: ''
-      label: 'story type.'
       region: content
 id: node.qss.default
 targetEntityType: node
@@ -170,10 +143,10 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_nw_alqst:
-    weight: 22
+    weight: 4
     settings: {  }
     third_party_settings: {  }
-    type: options_buttons
+    type: options_select
     region: content
   field_topic_image:
     weight: 1
