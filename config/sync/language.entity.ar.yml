@@ -4,6 +4,6 @@ status: true
 dependencies: {  }
 id: ar
 label: Arabic
-direction: ltr
+direction: rtl
 weight: 1
 locked: false
