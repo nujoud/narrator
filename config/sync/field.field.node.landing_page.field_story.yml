@@ -1,0 +1,21 @@
+uuid: d90294b9-f42b-456c-aeeb-19770ad79540
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_story
+    - node.type.landing_page
+id: node.landing_page.field_story
+field_name: field_story
+entity_type: node
+bundle: landing_page
+label: story
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference
