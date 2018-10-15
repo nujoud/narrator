@@ -12,7 +12,7 @@ dependencies:
 id: socialblue_exposedformupcoming_eventspage_community_events
 theme: socialblue
 region: complementary_top
-weight: 3
+weight: -7
 provider: null
 plugin: 'views_exposed_filter_block:upcoming_events-page_community_events'
 settings:

@@ -1,0 +1,29 @@
+uuid: 62c57504-5955-4ae8-810c-deb2265b634e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.group_topics
+  module:
+    - system
+    - views
+  theme:
+    - socialblue
+id: exposedformgroup_topicspage_group_topics
+theme: socialblue
+region: complementary_top
+weight: -13
+provider: null
+plugin: 'views_exposed_filter_block:group_topics-page_group_topics'
+settings:
+  id: 'views_exposed_filter_block:group_topics-page_group_topics'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: Filter
+visibility:
+  request_path:
+    id: request_path
+    pages: '/group/*/topics'
+    negate: false
+    context_mapping: {  }

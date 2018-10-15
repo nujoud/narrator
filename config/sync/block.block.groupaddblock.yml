@@ -1,26 +1,26 @@
-uuid: efd9e292-6628-4a23-87b2-d7c576904bc1
+uuid: fa37357a-380d-4d2b-a43d-08cefedf6595
 langcode: en
 status: true
 dependencies:
   module:
-    - social_event
+    - social_group
     - system
   theme:
     - socialblue
-id: socialblue_event_add_block
+id: groupaddblock
 theme: socialblue
 region: complementary_top
-weight: -21
+weight: -20
 provider: null
-plugin: event_add_block
+plugin: group_add_block
 settings:
-  id: event_add_block
-  label: 'Event add block'
-  provider: social_event
+  id: group_add_block
+  label: 'Group add block'
+  provider: social_group
   label_display: '0'
 visibility:
   request_path:
     id: request_path
-    pages: '/user/*/events'
+    pages: '/user/*/groups'
     negate: false
     context_mapping: {  }

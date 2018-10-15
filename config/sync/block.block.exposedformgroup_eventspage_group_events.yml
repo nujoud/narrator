@@ -1,0 +1,23 @@
+uuid: 7c9d09a5-7733-4b4b-b6d8-c4dccb1bb8f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.group_events
+  module:
+    - views
+  theme:
+    - socialblue
+id: exposedformgroup_eventspage_group_events
+theme: socialblue
+region: complementary_top
+weight: -14
+provider: null
+plugin: 'views_exposed_filter_block:group_events-page_group_events'
+settings:
+  id: 'views_exposed_filter_block:group_events-page_group_events'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: Filter
+visibility: {  }

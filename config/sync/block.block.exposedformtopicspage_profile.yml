@@ -1,29 +1,29 @@
-uuid: 3bc43c08-35ba-4393-a37c-9377621fc17e
+uuid: 4259b978-a2b2-43db-bbb3-09743c0023db
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view._latest_stories
+    - views.view.topics
   module:
     - system
     - views
   theme:
     - socialblue
-id: exposedform_latest_storiespage_latest_topics
+id: exposedformtopicspage_profile
 theme: socialblue
 region: complementary_top
-weight: -5
+weight: -8
 provider: null
-plugin: 'views_exposed_filter_block:_latest_stories-page_latest_topics'
+plugin: 'views_exposed_filter_block:topics-page_profile'
 settings:
-  id: 'views_exposed_filter_block:_latest_stories-page_latest_topics'
+  id: 'views_exposed_filter_block:topics-page_profile'
   label: ''
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: Filter
 visibility:
   request_path:
     id: request_path
-    pages: /all-stories
+    pages: '/user/*/topics'
     negate: false
     context_mapping: {  }

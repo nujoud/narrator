@@ -1,0 +1,27 @@
+uuid: 20290ed1-bfc7-40e9-b947-d991979c3b2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_group
+    - system
+  theme:
+    - socialblue
+id: groupheroblock
+theme: socialblue
+region: hero
+weight: 0
+provider: null
+plugin: group_hero_block
+settings:
+  id: group_hero_block
+  label: 'Group hero block'
+  provider: social_group
+  label_display: visible
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "group/*/stream\r\n/group/*/about\r\n/group/*/events\r\n/group/*/topics\r\n/group/*/members\r\n/group/*/membership\r\n/group/*/leave\r\n/group/*/content/*"
+    negate: false
+    context_mapping: {  }

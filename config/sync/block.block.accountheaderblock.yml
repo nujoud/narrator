@@ -10,7 +10,7 @@ dependencies:
 id: accountheaderblock
 theme: socialblue
 region: header
-weight: -11
+weight: -14
 provider: null
 plugin: account_header_block
 settings:

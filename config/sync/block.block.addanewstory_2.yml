@@ -13,7 +13,7 @@ dependencies:
 id: addanewstory_2
 theme: socialblue
 region: hero
-weight: 0
+weight: -12
 provider: null
 plugin: 'fixed_block_content:add_a_new_story'
 settings:
