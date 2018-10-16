@@ -29,6 +29,7 @@ permissions:
   - 'add own profile profile'
   - 'add post entities'
   - 'administer account settings'
+  - 'administer alternative frontpage settings'
   - 'administer blocks'
   - 'administer menu'
   - 'administer navigation settings'

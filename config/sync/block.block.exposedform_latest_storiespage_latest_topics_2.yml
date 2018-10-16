@@ -1,0 +1,29 @@
+uuid: b0250b03-23db-4968-beb9-a2f280c3852a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view._latest_stories
+  module:
+    - system
+    - views
+  theme:
+    - socialblue
+id: exposedform_latest_storiespage_latest_topics_2
+theme: socialblue
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:_latest_stories-page_latest_topics'
+settings:
+  id: 'views_exposed_filter_block:_latest_stories-page_latest_topics'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

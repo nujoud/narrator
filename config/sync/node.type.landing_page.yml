@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 _core:
   default_config_hash: mNmadAa-t9k377nHUAkS1CfhhoxpoYQIXTv9G3naaBY
-name: Front
+name: 'Landing Page'
 type: landing_page
 description: 'Use landing pages for your dynamic content, such as a home page.'
 help: ''
