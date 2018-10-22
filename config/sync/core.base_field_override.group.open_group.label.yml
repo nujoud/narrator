@@ -1,0 +1,18 @@
+uuid: 3e45736f-d2ce-4ee9-bb3f-5a066e452721
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.open_group
+id: group.open_group.label
+field_name: label
+entity_type: group
+bundle: open_group
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

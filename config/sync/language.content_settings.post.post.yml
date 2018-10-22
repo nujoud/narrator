@@ -1,0 +1,18 @@
+uuid: a6ef2cfa-98bf-4c76-9a70-7dfda763eb90
+langcode: en
+status: true
+dependencies:
+  config:
+    - social_post.post_type.post
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: post.post
+target_entity_type_id: post
+target_bundle: post
+default_langcode: site_default
+language_alterable: false

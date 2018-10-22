@@ -1,0 +1,18 @@
+uuid: 55790674-9992-423b-a741-88924766c122
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.topic_types
+id: taxonomy_term.topic_types.name
+field_name: name
+entity_type: taxonomy_term
+bundle: topic_types
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

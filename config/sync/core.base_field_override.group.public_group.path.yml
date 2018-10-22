@@ -1,0 +1,20 @@
+uuid: 66e06f4f-72ee-4282-974a-972fea19b35e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+  module:
+    - path
+id: group.public_group.path
+field_name: path
+entity_type: group
+bundle: public_group
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

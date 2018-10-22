@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - taxonomy.vocabulary.anwa_alqst
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 id: taxonomy_term.anwa_alqst
 target_entity_type_id: taxonomy_term
 target_bundle: anwa_alqst

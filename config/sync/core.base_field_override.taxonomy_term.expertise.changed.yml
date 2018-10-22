@@ -1,0 +1,18 @@
+uuid: f61cbb26-5e97-4d08-a1a5-24250e2ea537
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.expertise
+id: taxonomy_term.expertise.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: expertise
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

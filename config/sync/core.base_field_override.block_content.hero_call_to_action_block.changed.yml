@@ -1,0 +1,18 @@
+uuid: d5060160-daf4-47d3-8c53-bed4c4a9ade9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_call_to_action_block
+id: block_content.hero_call_to_action_block.changed
+field_name: changed
+entity_type: block_content
+bundle: hero_call_to_action_block
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

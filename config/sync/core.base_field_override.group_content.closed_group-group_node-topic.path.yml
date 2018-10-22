@@ -1,0 +1,20 @@
+uuid: 0e07cf0e-64ee-4f00-8e58-2cedc224969a
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.closed_group-group_node-topic
+  module:
+    - path
+id: group_content.closed_group-group_node-topic.path
+field_name: path
+entity_type: group_content
+bundle: closed_group-group_node-topic
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,20 @@
+uuid: 833f81a8-b543-44c8-bd06-469c5605c111
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.open_group-group_node-event
+  module:
+    - path
+id: group_content.open_group-group_node-event.path
+field_name: path
+entity_type: group_content
+bundle: open_group-group_node-event
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

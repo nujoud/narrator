@@ -1,0 +1,20 @@
+uuid: dda27013-e5f6-4af0-90c7-28e685839c7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.public_group-group_membership
+  module:
+    - path
+id: group_content.public_group-group_membership.path
+field_name: path
+entity_type: group_content
+bundle: public_group-group_membership
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

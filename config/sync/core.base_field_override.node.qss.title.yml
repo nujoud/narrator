@@ -1,0 +1,18 @@
+uuid: 64450731-6bed-4056-9eed-dc57e6a05989
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.qss
+id: node.qss.title
+field_name: title
+entity_type: node
+bundle: qss
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

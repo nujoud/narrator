@@ -1,0 +1,20 @@
+uuid: bc36ee3c-d2b6-4b5a-8e4c-337ea13edcfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+id: group.public_group.uid
+field_name: uid
+entity_type: group
+bundle: public_group
+label: 'Group creator'
+description: 'The username of the group creator.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\group\Entity\Group::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

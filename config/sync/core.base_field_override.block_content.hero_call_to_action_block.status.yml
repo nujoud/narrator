@@ -1,0 +1,22 @@
+uuid: eb42af6f-0fa5-45a9-9068-2a93c8fb3043
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_call_to_action_block
+id: block_content.hero_call_to_action_block.status
+field_name: status
+entity_type: block_content
+bundle: hero_call_to_action_block
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 94569e01-09fe-45b1-9690-64a21d897a8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.open_group-group_membership
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: group_content.open_group-group_membership
+target_entity_type_id: group_content
+target_bundle: open_group-group_membership
+default_langcode: site_default
+language_alterable: false

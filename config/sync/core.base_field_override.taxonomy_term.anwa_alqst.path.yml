@@ -1,0 +1,20 @@
+uuid: 282ae143-9cf4-4033-924a-6439f9a6fd13
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.anwa_alqst
+  module:
+    - path
+id: taxonomy_term.anwa_alqst.path
+field_name: path
+entity_type: taxonomy_term
+bundle: anwa_alqst
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

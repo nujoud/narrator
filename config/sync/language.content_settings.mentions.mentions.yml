@@ -1,0 +1,11 @@
+uuid: cfbfc67a-12d2-45dd-971a-b17b05054d0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - mentions
+id: mentions.mentions
+target_entity_type_id: mentions
+target_bundle: mentions
+default_langcode: site_default
+language_alterable: false

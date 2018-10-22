@@ -1,0 +1,18 @@
+uuid: 9fdf2b09-e670-42a0-b8b6-de7ea2bbac3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.anwa_alqst
+id: taxonomy_term.anwa_alqst.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: anwa_alqst
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,11 @@
+uuid: b730ceef-4f76-4084-9d7f-630138bb90fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.hero_landing
+id: crop.hero_landing
+target_entity_type_id: crop
+target_bundle: hero_landing
+default_langcode: site_default
+language_alterable: false

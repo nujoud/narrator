@@ -1,0 +1,20 @@
+uuid: 839cd05c-fab0-42c7-91fe-7884184d448d
+langcode: en
+status: true
+dependencies:
+  config:
+    - social_post.post_type.photo
+id: post.photo.user_id
+field_name: user_id
+entity_type: post
+bundle: photo
+label: 'Authored by'
+description: 'The user ID of author of the Post entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

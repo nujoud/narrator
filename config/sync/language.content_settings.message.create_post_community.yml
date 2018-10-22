@@ -1,0 +1,11 @@
+uuid: 4effee81-1f7a-4fbc-b557-5a98ee17d3dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.create_post_community
+id: message.create_post_community
+target_entity_type_id: message
+target_bundle: create_post_community
+default_langcode: site_default
+language_alterable: false

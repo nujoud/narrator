@@ -1,0 +1,20 @@
+uuid: 1abb177c-fcd9-4269-bca8-8076c39549a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.closed_group
+  module:
+    - path
+id: group.closed_group.path
+field_name: path
+entity_type: group
+bundle: closed_group
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

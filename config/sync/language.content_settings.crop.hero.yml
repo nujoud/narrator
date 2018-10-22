@@ -1,0 +1,11 @@
+uuid: 5416345f-33e4-4903-9553-8793948d104c
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.hero
+id: crop.hero
+target_entity_type_id: crop
+target_bundle: hero
+default_langcode: site_default
+language_alterable: false

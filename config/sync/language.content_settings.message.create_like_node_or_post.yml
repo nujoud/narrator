@@ -1,0 +1,11 @@
+uuid: 895f145e-6979-4b3e-92e0-285b8bf617a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.create_like_node_or_post
+id: message.create_like_node_or_post
+target_entity_type_id: message
+target_bundle: create_like_node_or_post
+default_langcode: site_default
+language_alterable: false

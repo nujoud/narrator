@@ -1,0 +1,20 @@
+uuid: 17776cc6-3265-4fed-a8c3-10989a0bd309
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.anwa_alqst
+  module:
+    - text
+id: taxonomy_term.anwa_alqst.description
+field_name: description
+entity_type: taxonomy_term
+bundle: anwa_alqst
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,18 @@
+uuid: 20a0847d-e491-4110-9200-edafa545fa0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.closed_group
+id: group.closed_group.changed
+field_name: changed
+entity_type: group
+bundle: closed_group
+label: 'Changed on'
+description: 'The time that the group was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

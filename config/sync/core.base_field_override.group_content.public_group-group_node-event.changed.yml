@@ -1,0 +1,18 @@
+uuid: 10c857b0-7d82-4ee0-999d-6fb6b5b5f0d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.public_group-group_node-event
+id: group_content.public_group-group_node-event.changed
+field_name: changed
+entity_type: group_content
+bundle: public_group-group_node-event
+label: 'Changed on'
+description: 'The time that the group content was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -14,7 +14,7 @@ bundle: qss
 label: Body
 description: 'لا تنسى أن تضع النص على الجهة اليمنى في اللغة العربية'
 required: true
-translatable: true
+translatable: false
 default_value:
   -
     summary: ''

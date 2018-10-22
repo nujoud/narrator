@@ -1,0 +1,20 @@
+uuid: 27a8902a-5dfc-4ac1-b73c-30ccffec6872
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_event
+id: event_enrollment.event_enrollment.user_id
+field_name: user_id
+entity_type: event_enrollment
+bundle: event_enrollment
+label: 'Authored by'
+description: 'The user ID of author of the Event enrollment entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

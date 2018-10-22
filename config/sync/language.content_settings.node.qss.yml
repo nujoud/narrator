@@ -4,8 +4,15 @@ status: true
 dependencies:
   config:
     - node.type.qss
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 id: node.qss
 target_entity_type_id: node
 target_bundle: qss
-default_langcode: und
+default_langcode: current_interface
 language_alterable: false

@@ -1,0 +1,20 @@
+uuid: 8329f242-9558-4403-841a-1da9f07cf8b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_creator
+id: activity.activity.user_id
+field_name: user_id
+entity_type: activity
+bundle: activity
+label: 'Authored by'
+description: 'The user ID of author of the Activity entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

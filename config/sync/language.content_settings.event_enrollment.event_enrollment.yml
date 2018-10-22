@@ -1,0 +1,17 @@
+uuid: 0a664352-0d19-4d28-adde-1bbc4334d1d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - social_event
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: event_enrollment.event_enrollment
+target_entity_type_id: event_enrollment
+target_bundle: event_enrollment
+default_langcode: site_default
+language_alterable: false

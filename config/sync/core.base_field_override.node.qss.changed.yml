@@ -1,0 +1,18 @@
+uuid: 7a6bb869-172d-4ffc-90b6-367cebbc8a13
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.qss
+id: node.qss.changed
+field_name: changed
+entity_type: node
+bundle: qss
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

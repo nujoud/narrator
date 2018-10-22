@@ -1,0 +1,18 @@
+uuid: 1700d821-9712-4834-b96b-89039f78fbd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.open_group-group_node-topic
+id: group_content.open_group-group_node-topic.label
+field_name: label
+entity_type: group_content
+bundle: open_group-group_node-topic
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: 598fcc6b-412d-4cb5-ad6d-aa6c63013aaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+id: group.public_group.label
+field_name: label
+entity_type: group
+bundle: public_group
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
