@@ -57,6 +57,8 @@ permissions:
   - 'view community posts'
   - 'view group stream page'
   - 'view like widget'
+  - 'view node.book.field_content_visibility:community content'
+  - 'view node.book.field_content_visibility:public content'
   - 'view node.event.field_content_visibility:community content'
   - 'view node.event.field_content_visibility:public content'
   - 'view node.landing_page.field_content_visibility:community content'
