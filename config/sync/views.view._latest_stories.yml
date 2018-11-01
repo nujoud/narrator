@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.small_teaser
     - core.entity_view_mode.node.teaser
+    - node.type.book
     - node.type.qss
     - system.menu.main
     - taxonomy.vocabulary.anwa_alqst
@@ -136,6 +137,7 @@ display:
           admin_label: ''
           operator: in
           value:
+            book: book
             qss: qss
           group: 1
           exposed: false
@@ -435,6 +437,7 @@ display:
           admin_label: ''
           operator: in
           value:
+            book: book
             qss: qss
           group: 1
           exposed: false
