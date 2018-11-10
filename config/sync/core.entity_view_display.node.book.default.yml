@@ -47,14 +47,6 @@ content:
       use_description_as_link_text: true
     third_party_settings: {  }
     region: content
-  field_nw_alqst:
-    weight: 11
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   flag_follow_content:
     weight: 10
     region: content
@@ -68,6 +60,7 @@ content:
 hidden:
   field_book_image: true
   field_content_visibility: true
+  field_nw_alqst: true
   groups: true
   groups_type_closed_group: true
   groups_type_open_group: true

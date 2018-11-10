@@ -1,0 +1,22 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Reset
+      pager:
+        options:
+          tags:
+            previous: '‹ السابقة'
+            next: 'التالية ›'
+            first: '« الأولى'
+            last: 'الأخيرة »'
+      fields:
+        type:
+          label: Type
+        title:
+          label: Title
+        name:
+          label: Author
+  page_1:
+    display_title: Page

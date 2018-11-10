@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.book.field_book_image
     - field.field.node.book.field_content_visibility
     - field.field.node.book.field_files
+    - field.field.node.book.field_nw_alqst
     - node.type.book
   module:
     - comment
@@ -44,6 +45,7 @@ hidden:
   field_book_image: true
   field_content_visibility: true
   field_files: true
+  field_nw_alqst: true
   groups: true
   groups_type_closed_group: true
   groups_type_open_group: true

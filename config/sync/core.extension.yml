@@ -37,6 +37,7 @@ module:
   filter: 0
   fixed_block_content: 0
   flag: 0
+  flag_bookmark: 0
   gnode: 0
   group: 0
   group_core_comments: 0
